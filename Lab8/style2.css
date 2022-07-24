@@ -1,0 +1,39 @@
+.container{
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.diem{
+  background-color: yellow;
+}
+.submit{
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+.submit:hover {
+    background-color: #45a049;
+}
+.submit:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+}
+.reset{
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+.reset:hover {
+    background-color: #45a049;
+}
+.reset:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+}

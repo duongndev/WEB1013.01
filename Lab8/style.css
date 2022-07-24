@@ -1,0 +1,15 @@
+.number{
+    color: #FF0000;
+    border: 1px solid #FF0000;
+    border-radius: 5px;
+}
+.form-user{
+    margin: 10px 3px;
+    padding: 10px;
+    width: 300px;
+}
+.form-pass{
+    margin: 10px 3px;
+    padding: 10px;
+    width: 300px;
+}

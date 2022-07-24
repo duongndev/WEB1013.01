@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <label>Họ và tên:</label><br>
+            <input type="text" name="username" id="username"><br>
+            <fieldset>
+                <label><input type="radio" name="gioitinh" id="">Nam</label>
+                <legend>Giới tính</legend>
+                <label><input type="radio" name="gioitinh" id="">Nữ</label>
+            </fieldset>
+            <label>Ngày Sinh:</label><br>
+            <input type="date" name="date" id=""><br>
+            <label>Điểm:</label><br>
+            <input type="number" min="0" max="10" step="0.25" class="diem"><br>
+            
+            <label>Nghề Nghiệp:</label><br>
+            <input type="text" list="data">
+            <datalist id="data">
+                <option value="Giáo viên"></option>
+                <option value="Bác sĩ"></option>
+                <option value="Nhân viên"></option>
+                <option value="Sinh viên"></option>
+                <option value="Công an"></option>
+                <option value="Khác"></option>
+            </datalist><br>
+            <fieldset>
+                <legend>Sở Thích</legend>
+                <label><input type="checkbox" name="checkbox" id=""> Thể thao</label>
+                <label> <input type="checkbox" name="checkbox" id=""> Thể thao</label>
+                <label><input type="checkbox" name="checkbox" id=""> Du lịch</label>
+                <label>
+                    <input type="checkbox" name="checkbox" id=""> Ẩm thực</label>
+                <label> <input type="checkbox" name="checkbox" id=""> Âm nhạc</label>
+            </fieldset>
+            <label>Ghi chú:</label><br>
+            <textarea name="textarea" id="" cols="40" rows="5"></textarea><br>
+            <input type="submit" name="submit" id="" value="Đăng ký" class="submit">
+            <input type="submit" name="submit" id="" value="Đăng nhập" class="submit">
+            <input type="reset" value="Nhập lại" class="reset">
+        </form>
+    </div>
+</body>
+
+</html>

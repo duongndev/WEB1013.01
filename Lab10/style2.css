@@ -1,0 +1,26 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+    border-color: lightgreen;
+    width: 70%;
+    font-size: 20px;
+    margin: auto;
+}
+tr{
+    height: 40px;
+}
+td{
+    border: 1px solid lightgreen;
+    width: 10%;
+}
+.xanh{
+    background-color: green;
+    color: white;
+}
+.dong2{
+    background-color: lightgreen;
+}
+.do{
+    color: red;
+    font-weight: bold;
+}

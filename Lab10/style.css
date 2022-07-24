@@ -1,0 +1,19 @@
+table{
+    border-collapse: collapse;
+    display: inline-block;
+}
+thead{
+    background-color: #ddd;
+}
+tbody tr{
+    background-color: #f2f2f2;
+}
+
+th, td{
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+tfoot{
+    background-color: beige;
+    font-weight: bold;
+}
