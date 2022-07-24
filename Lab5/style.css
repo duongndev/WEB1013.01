@@ -1,0 +1,16 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 15px double mediumpurple;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    border: 3px dotted #ea00ff;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
